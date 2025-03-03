@@ -8,13 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4babb249-7cce-473a-b383-58e57d7a4150" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Data.cpp.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Data.cpp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel_rooms.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel_rooms.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel_rooms.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel_rooms.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Room.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Room.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hotel_rooms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hotel_rooms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data.cpp.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data.cpp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel_rooms.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel_rooms.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_rooms.vcxproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +23,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;avlag150mg&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/avlag150mg/Hotel_rooms.git&quot;,
+    &quot;accountId&quot;: &quot;40566a2e-538a-43d1-890c-56ec7a9e9161&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="Toolset" />
   </component>
@@ -40,7 +58,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Hotel__rooms&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -88,7 +106,11 @@
       <workItem from="1741021302634" duration="15000" />
       <workItem from="1741021335935" duration="99000" />
       <workItem from="1741021448155" duration="51000" />
-      <workItem from="1741021520124" duration="102000" />
+      <workItem from="1741021520124" duration="753000" />
+      <workItem from="1741022311320" duration="708000" />
+      <workItem from="1741023585367" duration="274000" />
+      <workItem from="1741023890115" duration="15000" />
+      <workItem from="1741023919492" duration="2214000" />
     </task>
     <servers />
   </component>
