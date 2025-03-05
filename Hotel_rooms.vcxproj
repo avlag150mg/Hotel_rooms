@@ -154,7 +154,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Hotel_rooms.cpp" />
+    <ClCompile Include="Data\Room.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Domain\" />
+    <Folder Include="lib\" />
+    <Folder Include="UI\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Data\Room.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
