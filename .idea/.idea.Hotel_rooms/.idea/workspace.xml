@@ -7,25 +7,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4babb249-7cce-473a-b383-58e57d7a4150" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Data/Room.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Room.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    <list default="true" id="4babb249-7cce-473a-b383-58e57d7a4150" name="Changes" comment="main">
+      <change afterPath="$PROJECT_DIR$/Hotel/Hotel.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hotel/Hotel.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Hotel_rooms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hotel_rooms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data.cpp.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data.cpp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel_rooms.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Room.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/room/Room.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Room.h" beforeDir="false" afterPath="$PROJECT_DIR$/room/Room.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel_rooms.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel_rooms.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="Room.h" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,6 +63,10 @@
     &quot;accountId&quot;: &quot;40566a2e-538a-43d1-890c-56ec7a9e9161&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="cidr-memory-view://1" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="Toolset" />
   </component>
@@ -54,20 +79,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Hotel__rooms&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ Project.Hotel_rooms.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Room.cpp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "SolutionBuilderGeneralOptionsPage",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Hotel_rooms" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
@@ -110,15 +136,31 @@
       <workItem from="1741022311320" duration="708000" />
       <workItem from="1741023585367" duration="274000" />
       <workItem from="1741023890115" duration="15000" />
-      <workItem from="1741023919492" duration="2214000" />
+      <workItem from="1741023919492" duration="2660000" />
+      <workItem from="1741190553118" duration="70000" />
+      <workItem from="1741191886937" duration="1974000" />
+      <workItem from="1741439817278" duration="1201000" />
+      <workItem from="1741441379380" duration="4512000" />
     </task>
+    <task id="LOCAL-00001" summary="beginning">
+      <option name="closed" value="true" />
+      <created>1741027059331</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741027059331</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="beginning" />
+    <option name="LAST_COMMIT_MESSAGE" value="beginning" />
   </component>
 </project>
