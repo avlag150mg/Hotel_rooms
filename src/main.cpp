@@ -1,4 +1,5 @@
 #include "../hotel//Hotel.h"
+#include <iostream>
 #include <windows.h>
 using namespace std;
 
@@ -14,16 +15,15 @@ int main() {
         cout << "1. Показати доступні кімнати\n";
         cout << "2. Забронювати кімнату\n";
         cout << "3. Скасувати бронювання\n";
-        cout << "4. Вийти\n";
+        cout << "4. Показати список гостей\n";
         cout << "5. Вийти\n";
         cout << "Виберіть опцію: ";
         cin >> choice;
 
         switch (choice) {
-        case 1: {  //показати доступні кімнати
+        case 1:  //показати доступні кімнати
                 hotel.showAvailableRooms();
                 break;
-        }
         case 2: {
                 int roomNumber;
                 string guestName;
@@ -43,12 +43,15 @@ int main() {
                 break;
         }
         case 4:
+            hotel.showGuestList();  // Виклик методу для показу списку гостей
+            break;
+        case 5:
             cout << "Вихід із програми...\n";
             break;
         default:
             cout << "Невірний вибір! Спробуйте ще раз.\n";
         }
-    } while (choice != 4);
+    } while (choice != 5);      
 
     return 0;
 }
